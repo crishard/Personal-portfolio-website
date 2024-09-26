@@ -2,7 +2,7 @@ import heroImage from "../../assets/Group 11 1.png"
 import Button from "../Button/Button"
 export const HomeSection = () => {
   return (
-    <section className="grid grid-cols-2 items-center bg-bg-shade gap-3 px-20 text-">
+    <section className="grid grid-cols-2 items-center bg-bg-shade px-20 gap-5 py-20">
       <div>
         <p className="font-semibold text-heading-color">Hey, I am John</p>
         <h1 className="text-5xl font-semibold text-heading-color py-4">
