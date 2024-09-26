@@ -4,7 +4,7 @@ import imageFooter from "../../assets/Frame.png";
 
 export const Footer = () => {
     return (
-        <footer className="py-10">
+        <footer className="py-10 px-20 bg-bg-shade">
             <div className="flex justify-between items-center py-14">
                 <img src={imageFooter} alt="logo" />
 
