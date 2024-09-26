@@ -1,6 +1,7 @@
 import { Footer } from './components/Footer/Footer'
 import { Header } from './components/Header/Header'
 import { HomeSection } from './components/HomeSection/HomeSection'
+import { MySkills } from './components/Skills/MySkills'
 import './index.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <main className=''>
         <HomeSection />
+        <MySkills />
       </main>
       <Footer />
     </body>
