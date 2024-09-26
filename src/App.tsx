@@ -1,12 +1,13 @@
+import { Footer } from './components/Footer/Footer'
 import './index.css'
 
 function App() {
- 
+
 
   return (
-    <>
-      <h1>olá</h1>
-    </>
+    <body className='bg-bg-shade px-20'>
+      <Footer />
+    </body>
   )
 }
 
