@@ -2,10 +2,18 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "primary": "#5E3BEE",
+        "bg-shade": "#F5FCFF",
+        "dribble": "#E62872",
+        "heading-color": "#282938",
+        "body": "#1C1E53"
+      },
+    },
   },
   plugins: [],
 }
