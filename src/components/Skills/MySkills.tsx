@@ -8,9 +8,9 @@ export const MySkills = () => {
     return (
         <article className="px-20 text-body py-20">
             <p className="font-semibold text-heading-color">My Skills</p>
-            <h2 className="text-4xl font-semibold text-heading-color">My Expertise</h2>
+            <h2 className="text-5xl font-semibold text-heading-color">My Expertise</h2>
 
-            <div className="flex justify-between gap-4 ">
+            <div className="flex justify-between gap-4 pt-16">
                 <CardSkill text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."} img={img1} title={"Strategy & Direction"} />
                 <CardSkill text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."} img={img2} title={"Branding & Logo"} />
                 <CardSkill text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."} img={img3} title={"UI & UX Design"} />
