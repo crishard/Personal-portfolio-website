@@ -17,14 +17,14 @@ export const Footer = () => {
                     <p>Portfolio</p>
                 </div>
 
-                <div className="flex gap-3 text-lg">
+                <div className="flex gap-3 text-xl">
                     <FaFacebookF />
                     <FaInstagram />
                     <FaTwitter />
                     <FaLinkedin />
                 </div>
             </div>
-            <div className="bg-[#28293844] h-[2px]"></div>
+            <div className="bg-[#28293844] h-[1.3px]"></div>
             <div className="flex justify-between text-xs pt-10 pb-16">
                 <p>Made with 💖 by Airdokan</p>
                 <div className="flex gap-5">
