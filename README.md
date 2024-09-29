@@ -2,7 +2,9 @@
 
 Este repositório contém o código para o meu portfólio pessoal, desenvolvido utilizando **React**, **TailwindCSS**, e o bundler **Vite**. O objetivo deste projeto é fornecer uma plataforma moderna e responsiva para exibir meus projetos e habilidades como desenvolvedor front-end.
 
-- **Preview**: [website](https://personal-portfolio-website-sepia-three.vercel.app/)
+## Preview: [website](https://personal-portfolio-website-sepia-three.vercel.app/)
+
+![alt text](./src/assets/tumb.png)
 
 ## 📋 Funcionalidades
 
