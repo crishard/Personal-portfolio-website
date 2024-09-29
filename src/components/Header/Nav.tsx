@@ -1,7 +1,7 @@
 
 export const Nav = () => {
     return (
-        <nav className="list-none flex gap-6">
+        <nav className="list-none min-[800px]:flex block gap-6 text-center">
             <NavItem text="Home" />
             <NavItem text="Portfolio" />
             <NavItem text="About me" />
@@ -18,7 +18,7 @@ interface NavItemProps {
 const NavItem = ({ text }: NavItemProps) => {
     return (
         <li>
-            <a href="" className="hover:text-primary"> {text}
+            <a href="" className="hover:text-primary min-[800px]:py-0 py-2"> {text}
             </a>
         </li>
     )
