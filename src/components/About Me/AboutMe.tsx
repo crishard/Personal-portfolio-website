@@ -1,8 +1,13 @@
+import { Fade, Zoom } from "react-awesome-reveal"
 import aboutImage from "../../assets/About Me.png"
 export const AboutMe = () => {
     return (
         <section className="px-10 sm:px-20 py-20 grid grid-cols-2 items-center gap-16 text-body max-[800px]:block ">
-            <img src={aboutImage} alt="me" className="max-[800px]:pb-9"/>
+            <Zoom duration={2000} triggerOnce={true}>
+                <img src={aboutImage} alt="me" className="max-[800px]:pb-9" />
+            </Zoom>
+            <Fade direction='right' duration={2000} triggerOnce={true}>
+
             <div>
                 <p className="font-medium text-heading-color">About</p>
                 <h2 className="text-5xl font-semibold text-heading-color pt-2.5 pb-4  max-[960px]:text-4xl  max-[600px]:text-3xl max-[960px]:pb-2">About Me</h2>
@@ -14,6 +19,7 @@ export const AboutMe = () => {
                     Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.
                 </p>
             </div>
+            </Fade>
         </section>
     )
 }
