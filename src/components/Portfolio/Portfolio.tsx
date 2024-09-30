@@ -7,7 +7,7 @@ import { CardPortfolio } from "./CardPortfolio";
 
 export const Portfolio = () => {
   return (
-    <article className="px-10 sm:px-20">
+    <article className="px-10 sm:px-20" id="portfolio">
       <div className="flex justify-between py-16 items-center">
         <div>
           <Zoom triggerOnce={true} duration={2000}>

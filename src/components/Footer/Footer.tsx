@@ -11,12 +11,12 @@ export const Footer = () => {
                     <img src={imageFooter} alt="logo" className=" max-[480px]:pb-5" />
 
                     <div className="flex max-[900px]:grid grid-cols-3 max-[600px]:grid-cols-2  max-[480px]:grid-cols-3 gap-5 text-sm">
-                        <p className="hover:text-primary">Home</p>
-                        <p className="hover:text-primary">Portfolio</p>
-                        <p className="hover:text-primary">About me</p>
-                        <p className="hover:text-primary">Contact</p>
-                        <p className="hover:text-primary">Testimonials</p>
-                        <p className="hover:text-primary">Portfolio</p>
+                        <a href="#home" className="hover:text-arimary">Home</a>
+                        <a href="#portfolio" className="hover:text-arimary">Portfolio</a>
+                        <a href="#about" className="hover:text-arimary">About me</a>
+                        <a href="#contact" className="hover:text-arimary">Contact</a>
+                        <a href="#testimonials" className="hover:text-arimary">Testimonials</a>
+                        <a href="#portfolio" className="hover:text-primary">Portfolio</a>
                     </div>
 
                     <div className="flex  max-[480px]:flex  max-[480px]:pt-4  gap-3 text-xl">

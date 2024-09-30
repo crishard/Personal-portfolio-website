@@ -12,7 +12,7 @@ export const NavBar = () => {
 
             <div className="hidden  min-[810px]:flex justify-center items-center gap-6">
                 <Nav />
-                <button className="border px-4 py-3 rounded border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-500">Contact Me</button>
+                <a href="#contact" className="border px-4 py-3 rounded border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-500">Contact Me</a>
 
             </div>
 

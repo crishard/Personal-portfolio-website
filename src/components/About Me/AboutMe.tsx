@@ -2,7 +2,7 @@ import { Fade, Zoom } from "react-awesome-reveal"
 import aboutImage from "../../assets/About Me.png"
 export const AboutMe = () => {
     return (
-        <section className="px-10 sm:px-20 py-20 grid grid-cols-2 items-center gap-16 text-body max-[800px]:block ">
+        <section className="px-10 sm:px-20 py-20 grid grid-cols-2 items-center gap-16 text-body max-[800px]:block " id="about">
             <Zoom duration={2000} triggerOnce={true}>
                 <img src={aboutImage} alt="me" className="max-[800px]:pb-9" />
             </Zoom>

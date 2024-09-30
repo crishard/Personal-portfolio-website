@@ -3,7 +3,7 @@ import { InputContact } from "./InputContact"
 
 export const Contact = () => {
     return (
-        <section className="px-10 sm:px-20 py-28 text-body  flex justify-center">
+        <section className="px-10 sm:px-20 py-28 text-body  flex justify-center" id="contact">
             <Zoom triggerOnce={true} duration={2000}>
                 <div>
                     <div className="text-center pb-10">

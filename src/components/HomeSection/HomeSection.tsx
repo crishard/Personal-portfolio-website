@@ -3,7 +3,7 @@ import heroImage from "../../assets/Group 11 1.png"
 import Button from "../Button/Button"
 export const HomeSection = () => {
   return (
-    <section className="grid grid-cols-2 items-center bg-bg-shade px-10 sm:px-20 gap-5 py-20  max-[900px]:block ">
+    <section className="grid grid-cols-2 items-center bg-bg-shade px-10 sm:px-20 gap-5 py-20  max-[900px]:block " id="home">
       <Fade direction='left' duration={2000} triggerOnce={true}>
         <div>
           <p className="font-semibold text-heading-color">Hey, I am John</p>
