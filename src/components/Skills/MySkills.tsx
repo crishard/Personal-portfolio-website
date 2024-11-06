@@ -14,7 +14,7 @@ export const MySkills = () => {
             </Zoom>
           
 
-            <div className="grid grid-cols-4  max-[1010px]:grid-cols-3 justify-between max-[860px]:grid-cols-2 gap-4 pt-16 max-[560px]:grid-cols-1">
+            <div className="flex gap-4 flex-wrap pt-12">
                 <Fade direction="left" cascade triggerOnce={true} duration={1000}>
                     <CardSkill text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."} img={img1} title={"Strategy & Direction"} />
                     <CardSkill text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."} img={img2} title={"Branding & Logo"} />
