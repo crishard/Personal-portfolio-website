@@ -4,7 +4,7 @@ import { InputContact } from "./InputContact"
 export const Contact = () => {
     return (
         <section className="px-10 sm:px-20 py-28 text-body  flex justify-center" id="contact">
-            <Zoom triggerOnce={true} duration={2000}>
+            <Zoom triggerOnce={true} duration={1000}>
                 <div>
                     <div className="text-center pb-10">
                         <p className="font-semibold text-heading-color">Get In Touch</p>
@@ -15,15 +15,12 @@ export const Contact = () => {
                         <div className="flex gap-6">
                             <InputContact type={"text"} label={"First name"} />
                             <InputContact type={"text"} label={"Last name"} />
-
                         </div>
 
                         <div className="flex gap-6 my-4">
                             <InputContact type={"text"} label={"Email"} />
                             <InputContact type={"text"} label={"Phone number"} />
                         </div>
-
-
 
                         <label className="">Chose a topic</label>
                         <div className="border bg-white border-primary w-fu rounded-md px-6  py-2 my-1 w-full focus:border-primary focus-visible:border-primary pr-10">
@@ -42,12 +39,9 @@ export const Contact = () => {
                         <div className="flex justify-center pt-10">
                             <button className="px-12 py-3.5 bg-primary text-white hover:text-primary hover:bg-white border border-primary rounded transition-colors duration-500">Submit</button>
                         </div>
-
                     </form>
                 </div>
-
             </Zoom>
-
         </section>
     )
 }
